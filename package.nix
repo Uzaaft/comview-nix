@@ -11,8 +11,8 @@ buildGoModule rec {
   src = fetchFromGitHub {
     owner = "rockorager";
     repo = "comview";
-    rev = "b824b96e567f8b9188721f7939907798bb9be0fc";
-    hash = "sha256-HhZpkzJX943V/PmqeK2YpEhyKADQE4pEMoN+YJg+bcA=";
+    rev = "d87ba30b4236ce5ef91cae0118969e835c11472b";
+    hash = "sha256-s5sxYvWhJzMQ9qa4T0jlk89eR+fwpKyUeFqFKlGLnRc=";
   };
 
   vendorHash = "sha256-dy4FHHfTuz3lzfM4pC0dQjcALVgEk6PRSTvfHLhGjv4=";
