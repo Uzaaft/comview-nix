@@ -6,16 +6,16 @@
 
 buildGoModule rec {
   pname = "comview";
-  version = "0-unstable-2026-05-14";
+  version = "0-unstable-2026-06-08";
 
   src = fetchFromGitHub {
     owner = "rockorager";
     repo = "comview";
-    rev = "d87ba30b4236ce5ef91cae0118969e835c11472b";
-    hash = "sha256-s5sxYvWhJzMQ9qa4T0jlk89eR+fwpKyUeFqFKlGLnRc=";
+    rev = "08a35f43a467783015ff12557ac02c0e30004e2f";
+    hash = "sha256-4zu6PKXRcf1j0Bavql/i/apyJt4ArhnMgW2jqAoBazs=";
   };
 
-  vendorHash = "sha256-dy4FHHfTuz3lzfM4pC0dQjcALVgEk6PRSTvfHLhGjv4=";
+  vendorHash = "sha256-f7Q4+Bd22xnxkOWjgv4TzPmgZTNHhYvMtoVyl9anGzc=";
 
   subPackages = [ "cmd/comview" ];
 
