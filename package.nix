@@ -6,13 +6,13 @@
 
 buildGoModule rec {
   pname = "comview";
-  version = "0-unstable-2026-06-08";
+  version = "0-unstable-2026-06-19";
 
   src = fetchFromGitHub {
     owner = "rockorager";
     repo = "comview";
-    rev = "08a35f43a467783015ff12557ac02c0e30004e2f";
-    hash = "sha256-4zu6PKXRcf1j0Bavql/i/apyJt4ArhnMgW2jqAoBazs=";
+    rev = "816d5320152dd4c3b43f5c4422ab69136d82b931";
+    hash = "sha256-9lpPCe0cSBnBzlIfBF13/jk9TlqUpHy507pTHD90/Bg=";
   };
 
   vendorHash = "sha256-f7Q4+Bd22xnxkOWjgv4TzPmgZTNHhYvMtoVyl9anGzc=";
